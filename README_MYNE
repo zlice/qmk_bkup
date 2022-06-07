@@ -1,0 +1,19 @@
+vim keyboards/keebio/quefrency/keymaps/myne/keymap.c
+sudo make keebio/quefrency:myne:avrdude
+  ^caterina
+
+
+qmk gcc 9 error
+su
+CFLAGS="-Wno-error=deprecated" make  handwired/onekey/proton_c:myne:dfu-util
+now just dfu?
+
+CFLAGS="-Wno-error=deprecated" make  handwired/onekey/elite_c:myne:dfu
+
+CFLAGS="-Wno-error=deprecated" make  handwired/onekey/promicro:myne:avrdude
+
+xd60 
+sudo make xd60/rev3:myne:flash
+
+xd60 2nd alt support
+https://github.com/qmk/qmk_firmware/pull/9361/files
